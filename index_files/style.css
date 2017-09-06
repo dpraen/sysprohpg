@@ -1,0 +1,408 @@
+/*
+
+Theme Name: Porto
+
+Theme URI: http://www.newsmartwave.net/wordpress/porto
+
+Author: SW-THEMES
+
+Author URI: http://www.newsmartwave.net/
+
+Description: Porto Responsive Wordpress + eCommerce Theme.
+
+Version: 3.5.1
+
+License: Commercial
+
+License URI: http://themeforest.net/licenses/regular_extended
+
+Tags: woocommerce, corporate, ecommerce, responsive, blue, black, green, white, light, dark, red, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+
+Text Domain: porto
+
+
+
+*/
+
+
+
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/
+
+
+
+.bypostauthor {
+}
+.ghost_cta, div.hs_submit > div.actions > input {
+	text-align: center !important;
+	margin: auto !important;
+	background: #425563 !important;
+	color: #fff !important;
+	font-size: 18px !important;
+	padding: 15px 0px !important;
+	max-width: 200px !important;
+	min-width: 200px;
+	text-shadow: none;
+	font-family: open sans;
+	border: none;
+	border-radius: 0px;
+	font-weight: 100 !important;
+	cursor: pointer !important;
+	transition: 0.5s !important;
+	box-shadow: none;
+}
+.cta-bottom .vc_btn3.vc_btn3-size-lg:hover, .ghost_cta:hover, div.hs_submit > div.actions > input:hover {
+	background: none;
+	border: solid 1px #425563 !important;
+	transition: 0.5s;
+ color: #425563 box-shadow: none !important;
+}
+.cta-bottom .vc_btn3.vc_btn3-size-lg, .ghost_cta, div.hs_submit > div.actions > input {
+	font-size: 18px !important
+}
+input.hs-input, textarea.hs-input {
+	border-radius: 0 !important;
+	padding: 10px !important;
+	border: 1px solid #dedede !important;
+}
+#footer .footer-bottom {
+	background-color: #425563!important;
+	border-top: solid 1px rgba(0,0,0,.2);
+}
+
+#stick-contact {
+	-webkit-backface-visibility: hidden;
+	position: fixed;
+	right: 0;
+	top: 300px;
+	z-index: 9;
+	margin-right: -30px;
+	padding: 10px;
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+#stick-contact {
+	-webkit-backface-visibility: hidden !important;
+	/*background: rgba(0,127,162,0.6);*/
+	    background: rgba(132, 189, 0, 0.9);
+	cursor: pointer;
+	transition: 0.5s;
+}
+#stick-contact a {
+	-webkit-backface-visibility: hidden !important;
+	color: #fff;
+	text-decoration: none;
+}
+#stick-contact:hover {
+	padding-bottom: 13px;
+	transition: 0.5s;
+}
+.cta-bottom .vc_btn3.vc_btn3-size-lg {
+	padding: 9px !important;
+	font-size: 18px;
+	font-weight: 300 !important;
+	line-height: 1.333333;
+	min-width: 150px !important;
+}
+.cta-bottom .vc_btn3.vc_btn3-size-lg:hover {
+	border: 1px solid #85be00 !important;
+	background: #425563 !important;
+	color: #fff !important
+}
+.feedzy-rss .rss_item .title a {
+	color: #05c3dd !important
+}
+
+@media (max-width: 479px) {
+.manind-a {
+	border: none;
+	border-bottom: solid 1px #ccc !important;
+	border-right: none;
+}
+div.manind-a > div > div > div > div > p {
+	margin-top: 20px
+}
+}
+
+@media (max-width: 480px) {
+#content > h1 {
+	font-size: 32px;
+	line-height: auto;
+}
+.hpb-title {
+	font-size: auto!important
+}
+#content > article > div > div:nth-child(1) > div > div > h1 {
+	font-size: 32px;
+	line-height: auto;
+}
+.vc_custom_1494920621998 {
+	padding: 0px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+}
+#nav-panel {
+	border-right: solid 5px #05c3dd !important;
+}
+.feedzy-rss .rss_item {
+	border-bottom: none !important;
+}
+#content > article > div > div.vc_row.wpb_row.vc_row-fluid.vc_custom_1497278529461 {
+}
+#content > article > div > div:nth-child(8) > div > div > div > div:nth-child(1) > div > h2 {
+	margin: 0px !important;
+	font-size: 26px;
+	font-weight: 700 !important;
+}
+#content > article > div > div.vc_row.wpb_row.vc_row-fluid.vc_custom_1497278529461 {
+	border-top: solid 1px #f2f2f2;
+	padding-top: 40px;
+}
+#header > div > div > div.header-left > h1 > a > img.img-responsive.retina-logo {
+	min-width: 120px
+}
+.feedzy-rss > ul > li {
+	padding: 0px !important
+}
+.mega-menu .wide .popup > .inner {
+	border-radius: 0px !important
+}
+.mega-menu .wide .popup {
+	border-radius: 0px !important
+}
+#footer .widget-title {
+	font-weight: 700 !important
+}
+.global img {
+	vertical-align: middle;
+	float: left;
+	margin-top: 4px;
+	padding-right: 2px;
+}
+.close {
+	margin-top: 20px;
+	opacity: 1;
+}
+.locationz {
+	position: fixed;
+	top: 22%;
+	left: 10%;
+	z-index: 99999999;
+	width: 80%;
+	margin: auto;
+	display: none
+}
+.overlay_p {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999990;
+	display: none
+}
+.regions li a {
+	color: #fff;
+	text-decoration: none;
+}
+#africa:hover {
+	transition: 0.5s;
+	background: url(images/regions/africa.png) no-repeat center;
+	background-size: contain;
+}
+#americas:hover {
+	transition: 0.5s;
+	background: url(images/regions/americas.png) no-repeat center;
+	background-size: contain;
+}
+ #australia:hover, {
+transition: 0.5s;
+background: url(images/regions/australia_newzealand.png) no-repeat center;
+background-size: contain;
+}
+#canada:hover {
+	transition: 0.5s;
+	background: url(images/regions/canada.png) no-repeat center;
+	background-size: contain;
+}
+#europe:hover {
+	transition: 0.5s;
+	background: url(images/regions/europe.png) no-repeat center;
+	background-size: contain;
+}
+#global:hover {
+	transition: 0.5s;
+	background: url(images/regions/global.png) no-repeat center;
+	background-size: contain;
+}
+#asia_pacific:hover {
+	transition: 0.5s;
+	background: url(images/regions/asia_pacific.png) no-repeat center;
+	background-size: contain;
+}
+.global {
+	cursor: pointer;
+}
+.close {
+	z-index: 9999;
+	text-shadow: none;
+	color: #fff;
+	z-index: 9999;
+	text-shadow: none;
+	color: #fff;
+	background: #05c3dd;
+	padding: 10px;
+	font-weight: 300;
+}
+.close: hover {
+	color: #fff
+}
+.locationz {
+	background: rgba(66,85,99,1);
+	border-top: solid 7px #05c3dd;
+	border-bottom: solid 7px #05c3dd;
+	padding: 30px;
+	text-align: center;
+	box-shadow: 2px 3px 5px rgba(0,0,0,0.2);
+}
+.locationz h3 {
+	color: #fff;
+}
+.locationz p {
+	color: #fff;
+}
+.container .terms {
+	display: none;
+	background: #007fa2 !important;
+	color: #fff !important;
+	padding: 20px !important;
+	text-align: center;
+}
+.locationz ul {
+	background: rgba(66,85,99,0.9);
+	height: 220px;
+	padding: 50px 10px;
+	width: 100%;
+	margin: auto;
+}
+.locationz ul li {
+	list-type: none;
+	display: inline-block;
+	min-width: 120px;
+	height: 90px;
+	padding: 15px;
+	color: #fff;
+	transition: 0.5s;
+}
+.locationz ul li:hover {
+	transition: 0.5s;
+	font-size: 24px;
+	border: solid 1px rgba(255,255,255,0.2);
+	z-index: 99999;
+	cursor: pointer;
+	height: 120px;
+	width: auto;
+}
+#cookie_privay {
+	color: #fff;
+	padding: 20px 0px;
+	width: 80%;
+	margin: auto;
+}
+#header .header-contact .nav-top span {
+	float: inherit;
+	margin-top: -5px;
+	font-family: Open sans;
+	Color: #999;
+	display: inline-block;
+	font-size: 13px !important;
+	font-weight: 700;
+	transition: 0.5s;
+}
+#header .header-contact .nav-top i {
+	font-size: 16px;
+	transition: 0.5s;
+}
+#header .header-contact .nav-top i:hover, #header .header-contact .nav-top span:hover {
+	color: #05c3dd;
+	transition: 0.5s;
+}
+/****Country Mobile Lightbox***/
+
+.regions {background: #425563;}
+
+.country_select , .regions_mobi  {
+	display: none
+}
+.regions_mobi {
+	color: #ccc;
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0px;
+    z-index: 9;
+    margin-right: 10px;
+    margin-top: 0px;
+    padding: 10px;
+    z-index: 9999;
+    font-size: 1.5em;
+}
+.regions li a {
+	color: #fff;
+	text-decoration: none;
+}
+.overlay_mobi {display:none}
+
+
+.mobi_close {text-align: center; font-size: 16pt; text-align: center;
+    font-size: 16pt;
+    background: #293741;
+    padding: 20px 0px;
+    margin-top: -12px;}
+.mobi_close a {color: #fff; text-decoration: none}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.regions_mobi {
+	display: block;
+}
+.overlay_mobi {
+	background: #425563;
+	width: 100%;
+	min-height: 700px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	opacity: 1;
+}
+.country_select {
+	display: none;
+	transition: 1s;
+	position: fixed;
+	bottom: 0px;
+	z-index: 9;
+	width: 100%;
+	margin-top: -3px;
+	padding: 0px 0px 40px 0px;
+}
+.country_select a li {
+	color: #fff;
+	font-weight: 300;
+	padding: 15px 0px;
+	border-bottom: solid 1px #293741;
+	font-size: 14pt
+}
+.country_select a li:hover {
+	background: #4b6070;
+	transition: 1s;
+}
+}
+input.hs-input.error, .hs-form-23603eaa-a7a8-4c83-9411-3bb449eb141c_62227a09-8f06-40a2-9d66-54652d7efaf3 div.field.error input, .hs-form-23603eaa-a7a8-4c83-9411-3bb449eb141c_62227a09-8f06-40a2-9d66-54652d7efaf3 div.field.error textarea, .hs-form-23603eaa-a7a8-4c83-9411-3bb449eb141c_62227a09-8f06-40a2-9d66-54652d7efaf3 div.field.error .chzn-choices, textarea.hs-input.error,select.hs-input.error {
+    box-shadow: 0 0 0 0.2rem rgba(220,53,69,.25);
+    border: 1px solid #dc3545!important;
+}
